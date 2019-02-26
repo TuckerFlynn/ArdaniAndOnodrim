@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/ardani",
+		"value" : {
+			"aiFrames" : "ardaniAI.png",
+			"portraitFrames" : "portraits/ardaniportrait.png",
+			"staticFrames" : "staticardani.png"	
+		}
+	}
+]

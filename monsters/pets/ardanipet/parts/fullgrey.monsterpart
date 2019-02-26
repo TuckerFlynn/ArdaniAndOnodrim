@@ -1,0 +1,8 @@
+{
+  "name" : "fullgrey",
+  "category" : "ardanipet",
+  "type" : "body",
+  "frames" : {
+    "body" : "fullgrey.png"
+  }
+}

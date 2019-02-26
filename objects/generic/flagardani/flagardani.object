@@ -1,0 +1,46 @@
+{
+  "objectName" : "flagardani",
+  "colonyTags" : ["ardani"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  
+  "description" : "The flag of the Protectorate. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "ardani Flag",
+  "race" : "ardani",
+  "apexDescription" : "A ardani flag. I can use this as a waypoint for teleportation.",
+  "avianDescription" : "This ardani flag can be bookmarked as a destination for my ship teleporter.",
+  "floranDescription" : "ardani flag makess good point to teleport back to ussing teleporter",
+  "glitchDescription" : "Observant. A small locator module attached to this ardani flag allows it to be bookmarked for teleportation.",
+  "humanDescription" : "This ardani flag can be saved as a location for my teleporter. Then I can return to it at any time.",
+  "hylotlDescription" : "This ardani flag can act as a way point, enabling me to return to this point using a teleporter.",
+  "novakidDescription" : "I can bookmark this ardani flag for quick teleportin'.",
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "flagardaniicon.png",
+  "orientations" : [
+    {
+      "image" : "flagardani.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagardani.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "mint",
+  "category" : "ardanipet",
+  "type" : "body",
+  "frames" : {
+    "body" : "mint.png"
+  }
+}

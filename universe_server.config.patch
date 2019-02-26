@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/ardani",
+		"value" : [
+		    "/ships/ardani/ardanit0.structure",
+			"/ships/ardani/ardanit1.structure",
+			"/ships/ardani/ardanit2.structure",
+			"/ships/ardani/ardanit3.structure",
+			"/ships/ardani/ardanit4.structure",
+			"/ships/ardani/ardanit5.structure",
+			"/ships/ardani/ardanit6.structure",
+			"/ships/ardani/ardanit7.structure",
+			"/ships/ardani/ardanit8.structure"
+		]
+	}
+]

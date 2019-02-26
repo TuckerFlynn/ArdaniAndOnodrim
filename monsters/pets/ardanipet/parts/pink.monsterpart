@@ -1,0 +1,8 @@
+{
+  "name" : "pink",
+  "category" : "ardanipet",
+  "type" : "body",
+  "frames" : {
+    "body" : "pink.png"
+  }
+}

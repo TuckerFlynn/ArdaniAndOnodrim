@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/ardani",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/ardani",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

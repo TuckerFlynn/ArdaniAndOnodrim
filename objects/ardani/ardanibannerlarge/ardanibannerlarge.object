@@ -1,0 +1,29 @@
+{
+  "objectName" : "ardanibannerlarge",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "printable" : false,
+  "description" : "A large ardani wallbanner from a ardani academy.",
+  "shortdescription" : "Large ardani Wall Banner",
+  "race" : "ardani",
+  "apexDescription" : "This banner is large...",
+  "avianDescription" : "A large banner",
+  "floranDescription" : "Floran likesss thisss.",
+  "glitchDescription" : "Charmed. A large ardani banner...",
+  "humanDescription" : "The ardani banner quite lovely.",
+  "hylotlDescription" : "The banner is just lovely.",
+  "novakidDescription" : "This would look great in my house.",
+  "ardaniDescription" : "I am so happy to see the ardani culture thrive",  
+  "inventoryIcon" : "ardanibannerlargeicon.png",
+  "orientations" : [
+    {
+      "image" : "ardanibannerlarge.png:<color>",
+      "imagePosition" : [2, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ]
+}

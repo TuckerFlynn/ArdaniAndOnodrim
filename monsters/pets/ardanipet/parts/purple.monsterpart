@@ -1,0 +1,8 @@
+{
+  "name" : "purple",
+  "category" : "ardanipet",
+  "type" : "body",
+  "frames" : {
+    "body" : "purple.png"
+  }
+}

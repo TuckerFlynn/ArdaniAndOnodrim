@@ -1,0 +1,11 @@
+{
+  "tags" : "Species",
+  "author" : "OrangeJuice",
+  "description" : "Adds two playable races, the ARDANI and ONODRIM, as well as custom weapons, armours, ships, blocks, plants, and food.",
+  "friendlyName" : "ARDANI and ONODRIM",
+  "link" : "",
+  "name" : "ARDANI and ONODRIM",
+  "path" : ".",
+  "steamContentId" : "",
+  "version" : "1"
+}
