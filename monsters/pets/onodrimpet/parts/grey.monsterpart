@@ -1,0 +1,8 @@
+{
+  "name" : "grey",
+  "category" : "onodrimpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "grey.png"
+  }
+}

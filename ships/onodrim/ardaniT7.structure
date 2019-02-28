@@ -1,0 +1,21 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "crewSize" : 10
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "onodrimT7.png",
+      "position" : [-1, 4],
+      "fullbright" : true
+    },
+    {
+      "image" : "onodrimT7lit.png",
+      "position" : [-1, 4]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "onodrimT7blocks.png"
+}

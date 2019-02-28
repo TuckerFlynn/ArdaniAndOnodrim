@@ -1,0 +1,8 @@
+{
+  "name" : "fullblack",
+  "category" : "onodrimpet",
+  "type" : "body",
+  "frames" : {
+    "body" : "fullblack.png"
+  }
+}

@@ -1,3 +1,4 @@
 [
-{ "op" : "add", "path" : "/defaultCodexes/ardani", "value" : [ "protectorate1", "protectorate2", "ardanidiary" ] }
+	{ "op" : "add", "path" : "/defaultCodexes/ardani", "value" : [ "protectorate1", "protectorate2", "ardanidiary" ] },
+	{ "op" : "add", "path" : "/defaultCodexes/onodrim", "value" : [ "protectorate1", "protectorate2", "onodrimdiary" ] }
 ]

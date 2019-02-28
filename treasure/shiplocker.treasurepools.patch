@@ -13,5 +13,20 @@
         {"item" : [ "cannedfood", 1 ]}
       ]
     }]]
+  },
+  {
+    "op": "add",
+    "path": "/onodrimStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+	    {"item" : [ "flashlight" ]},
+        {"item" : [ "torch", 10 ]},
+        {"item" : [ "ardanisword", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]}
+      ]
+    }]]
   }
 ]

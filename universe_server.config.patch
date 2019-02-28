@@ -12,5 +12,19 @@
 			"/ships/ardani/ardanit7.structure",
 			"/ships/ardani/ardanit8.structure"
 		]
+	},
+	{ "op" : "add",
+		"path" : "/speciesShips/onodrim",
+		"value" : [
+		    "/ships/onodrim/onodrimt0.structure",
+			"/ships/onodrim/onodrimt1.structure",
+			"/ships/onodrim/onodrimt2.structure",
+			"/ships/onodrim/onodrimt3.structure",
+			"/ships/onodrim/onodrimt4.structure",
+			"/ships/onodrim/onodrimt5.structure",
+			"/ships/onodrim/onodrimt6.structure",
+			"/ships/onodrim/onodrimt7.structure",
+			"/ships/onodrim/onodrimt8.structure"
+		]
 	}
 ]
