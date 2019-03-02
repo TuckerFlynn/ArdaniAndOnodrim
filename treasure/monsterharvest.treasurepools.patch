@@ -1,0 +1,13 @@
+[
+  {
+    "op" : "add",
+    "path" : "/sprigganHarvest",
+    "value" : [
+      [1, {
+        "pool" : [
+	  {"weight" : 1.0, "item" : "sapling"}
+	]
+      }]
+    ]
+  }
+]

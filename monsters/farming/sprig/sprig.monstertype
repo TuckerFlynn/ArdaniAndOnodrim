@@ -1,0 +1,120 @@
+{
+  "type" : "sprig",
+
+  "categories" : [ "sprig" ],
+  "parts" : [ "body", "spawn" ],
+
+  "animation" : "sprig.animation",
+  "reversed" : false,
+
+  "dropPools" : [ { "default" : "huntingquadruped" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "persistent" : true,
+
+    "behavior" : "farmable",
+
+    "harvestTime" : [10, 20],
+    "harvestSpawnOffset" : [0, -1],
+    "harvestPool" : "sprigganHarvest",
+    
+    "placeLoot" : true,
+    "biome" : {
+      "default"   : { "stemName" : "pineytree", "foliageName" : "pinefoliage" },
+      "alien"     : { "stemName" : "alienstriped", "foliageName" : "alienbigleaf" },
+      "arctic"    : { "stemName" : "icespherestem", "foliageName" : "deadmoss" },
+      "barren"    : { "stemName" : "deadtree1", "foliageName" : "" },
+      "desert"    : { "stemName" : "desertpalm", "foliageName" : "palmleaves" },
+      "forest"    : { "stemName" : "birch", "foliageName" : "leafy" },
+      "garden"    : { "stemName" : "pineytree", "foliageName" : "pinefoliage" },
+      "jungle"    : { "stemName" : "twisty", "foliageName" : "jungly" },
+      "magma"     : { "stemName" : "magma", "foliageName" : "grey" },
+      "midnight"  : { "stemName" : "darkrock", "foliageName" : "" },
+      "ocean"     : { "stemName" : "coconut", "foliageName" : "cocopalm" },
+      "savannah"  : { "stemName" : "bleake", "foliageName" : "flatte" },
+      "scorchedcity" : { "stemName" : "bleake", "foliageName" : "" },
+      "snow"      : { "stemName" : "snowpinetree", "foliageName" : "snowpine" },
+      "toxic"     : { "stemName" : "toxiccoral", "foliageName" : "aridblank" },
+      "tundra"    : { "stemName" : "geometricstem", "foliageName" : "" },
+      "volcanic"  : { "stemName" : "coal", "foliageName" : "" }
+    },
+
+    "metaBoundBox" : [-4.0, -4.0, 4.0, 4.0],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.4375, 1.125], [0.9375, 0.625], [0.9375, -0.625], [0.4375, -1.125], [-0.4375, -1.125], [-0.9375, -0.625], [-0.9375, 0.625], [-0.4375, 1.125] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 5,
+      "runSpeed" : 5,
+      "jumpSpeed" : 5
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.1,
+    "knockoutEffect" : "",
+    "deathParticles" : "deathPoof",
+
+    "damageTeamType" : "friendly",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 100
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "healthRegen" : {
+          "baseValue" : 4.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [4, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : false,
+    "relocatable" : true,
+    "nametagColor" : [64, 200, 255]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "spriggan",
+  "category" : "spriggan",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

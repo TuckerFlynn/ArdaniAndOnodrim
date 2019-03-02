@@ -1,0 +1,9 @@
+{
+  "name" : "sprig",
+  "category" : "sprig",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "defaultevolution",
+  "category" : "sprig",
+  "type" : "spawn",
+
+  "frames" : {
+    "spawn" : "evolution.png"
+  }
+}
