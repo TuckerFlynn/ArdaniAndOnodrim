@@ -1,10 +1,10 @@
 {
 	"id" : "ardanidiary",
-	"title" : "Survivors Log",
-	"description" : "The diary of a lost soul.",
-	"icon" : "humancover7.png",
+	"title" : "The Ardani",
+	"description" : "Origins of the Ardani.",
+	"icon" : "ardaniprint.png",
 	"contentPages" : [
-    "Lore here."
+    "The Ardani have records tracing their roots back to the first Humans to explore the galaxy by warp travel. The original iterations of the human warp drive would be considered extremely unstable by current standards, and because of this many of the first ships to depart the Milky Way ended up stranded in unknown parts of the universe, with no way to communicate with, or return to Earth. The Ardani people are the descendants of the inhabitants of one such ship - the Interstellar Colonizer ARDA."
 	],
 		"itemConfig" : {
 		"rarity" : "common",

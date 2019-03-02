@@ -1,0 +1,13 @@
+{
+	"id" : "ardalog7",
+	"title" : "ISC ARDA Log 7",
+	"description" : "First Engineer, Day 109",
+	"icon" : "ardaeng.png",
+	"contentPages" : [
+    "The warp drive is beyond repair, we're running life-support systems on auxiliary power, and by all estimates we've overshot our destination by more than 1000 light years. But on the bright side, the ship's hull is still intact. I suspect this event falls into the 5.8% chance of non-catastrophic failure, though we have been unable to determine the exact nature of what occurred. There is a theory though: in the seconds immediately prior to warp-15 the warp core's internal mass began increasing exponentially, causing an immense power surge. At this point it was too late to abort the warp, and the massive overcharge sent us careening through warp-space before the core's reaction collapsed."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

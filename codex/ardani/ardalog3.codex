@@ -1,0 +1,13 @@
+{
+	"id" : "ardalog3",
+	"title" : "ISC ARDA Log 3",
+	"description" : "Captain's Log, Day 74",
+	"icon" : "ardacaptain.png",
+	"contentPages" : [
+    "We have successfully completed the first 10 warp jumps of our journey, and are presently charging for the 11th. All systems are operating at normal levels, oxygen generation is stable, and the H2O reclamation system indicates only minimal loss of mass. The halfway mark of our journey now lies 50 light years behind us, and the crew has begun look forward to our destination and not just the journey."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

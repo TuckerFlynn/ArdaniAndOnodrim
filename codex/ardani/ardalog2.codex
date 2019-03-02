@@ -1,0 +1,13 @@
+{
+	"id" : "ardalog2",
+	"title" : "ISC ARDA Log 2",
+	"description" : "First Engineer, Day 6",
+	"icon" : "ardaeng.png",
+	"contentPages" : [
+    "Our first charge cycle is nearly complete, warp-1 will take place in under 24 hours now. This drive is touted to have a warp success rate of 99.36%, and an estimated catastrophic failure rate of 0.29%. With 18 scheduled jumps that gives us a 94.9% of not being blasted into molecules, and 89.1% chance that every jump is successful. Every single person onboard is thinking about those numbers right now. As for that 5.8% in-between best and worst case outcomes ... no one really knows what happens in there."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

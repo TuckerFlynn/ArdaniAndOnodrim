@@ -17,12 +17,12 @@
       { "item" : ["bomb", 5] },
       { "item" : "ardanikittyhead" },
       { "item" : "ardanibannerlarge" },
-	  { "item" : "ardanibannersmall" },
+      { "item" : "ardanibannersmall" },
       { "item" : "ardaniwoodchair" },
       { "item" : "ardaniwooddoor" },
-	  { "item" : "ardaniwoodenbed" },
-	  { "item" : "ardaniwoodendesk" },	  
-	  { "item" : "spawnerardani" }	  
+      { "item" : "ardaniwoodenbed" },
+      { "item" : "ardaniwoodendesk" },
+      { "item" : "spawnerardani" }	  
     ]
   },
   "description" : "Is that a Penguin?",
@@ -40,7 +40,7 @@
   "humanDescription" : "If I kiss it, do you think it'll turn into a prince merchant?",
   "hylotlDescription" : "This silent creature is not one of us.",
   "novakidDescription" : "Don't see many penguin merchants round these parts",
-  "ardaniDescription" : "Cute",
+  "ardaniDescription" : "What a peculiar little critter.",
   "inventoryIcon" : "ardanimerchanticon.png",
   "orientations" : [
     {

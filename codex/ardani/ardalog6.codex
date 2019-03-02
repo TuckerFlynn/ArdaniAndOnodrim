@@ -1,0 +1,13 @@
+{
+	"id" : "ardalog6",
+	"title" : "ISC ARDA Log 6",
+	"description" : "First Engineer, Day 102",
+	"icon" : "ardaeng.png",
+	"contentPages" : [
+    "Warp-14 executed without complication. There is still no indication that the disappearance of eight crew members is related to warp travel."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

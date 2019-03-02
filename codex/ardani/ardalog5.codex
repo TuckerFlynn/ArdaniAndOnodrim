@@ -1,0 +1,13 @@
+{
+	"id" : "ardalog5",
+	"title" : "ISC ARDA Log 5",
+	"description" : "First Engineer, Day 101",
+	"icon" : "ardaeng.png",
+	"contentPages" : [
+    "After a three day delay of warp-14 we have completed a full sys-op exam of the warp engine, with no indications of anything abnormal. Charge has held steady for the past 72 hours - no change in energy or mass. Warp-14 will commence immediately pending the Captain's approval."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

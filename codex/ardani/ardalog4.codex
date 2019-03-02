@@ -1,0 +1,13 @@
+{
+	"id" : "ardalog4",
+	"title" : "ISC ARDA Log 4",
+	"description" : "Chief Medical Officer, Day 93",
+	"icon" : "ardamedical.png",
+	"contentPages" : [
+    "Something has been amiss since warp-12 nine days ago, but engineering overrode my recommendations and proceeding with warp-13 anyway. I can hardly blame them, with only 6 jumps remaining anticipation for our arrival is mounting. And now eight people are missing. All hands were enlisted to search the ship from top-to-bottom yesterday, but the eight have disappeared with no trace. After warp-12, three crew members were placed in protective custody after displaying erratic behaviour. One of those three is now fully catatonic. Although there is no proof yet, it seems clear to me that these two events are related, and directly resulting from warp travel."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

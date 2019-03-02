@@ -1,0 +1,13 @@
+{
+	"id" : "ardalog1",
+	"title" : "ISC ARDA Log 1",
+	"description" : "Captain's Log: Day 3",
+	"icon" : "ardacaptain.png",
+	"contentPages" : [
+    "The ISC ARDA left Earth with a crew of 182 people; engineers, scientists, doctors, linguists, tradespeople, farmers, teachers, and artists. Our destination is <GALAXY NAME>, which is suspected to be host to not only one but two Earth-like planets. Outfitted with the most advanced and stable warp drive to-date, the ISC ARDA will complete the 900 light year journey in 18 warp jumps, over a 4 month period. Everyone on board has been carefully selected from a pool of volunteers, and all will fill important roles over the course of our mission."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}
