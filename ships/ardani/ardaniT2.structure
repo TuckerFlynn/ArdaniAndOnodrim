@@ -8,12 +8,12 @@
   "backgroundOverlays" : [
     {
       "image" : "ardaniT2.png",
-      "position" : [9, 12],
+      "position" : [0, 0],
       "fullbright" : true
     },
     {
       "image" : "ardaniT2lit.png",
-      "position" : [9, 12]
+      "position" : [0, 0]
     }
   ],
   "blockKey" : "blockKey.config:blockKey",
