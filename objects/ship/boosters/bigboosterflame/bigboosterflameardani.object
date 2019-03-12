@@ -21,7 +21,7 @@
   "inventoryIcon" : "torchicon.png",
   "orientations" : [
     {
-      "image" : "bigboosterflameskest.png:on.1",
+      "image" : "bigboosterflameardani.png:on.1",
       "imagePosition" : [-37, -42],
       "fullbright" : true,
       "collision" : "solid",

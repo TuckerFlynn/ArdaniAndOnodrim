@@ -5,7 +5,7 @@
   "category" : "door",
   "price" : 125,
   "description" : "A door suitable for a spaceship.",
-  "shortdescription" : "ardani Ship Door",
+  "shortdescription" : "Ardani Ship Door",
   "race" : "ardani",
   "apexDescription" : "These doors are used on all our ships.",
   "avianDescription" : "A spaceship door.",
@@ -17,16 +17,27 @@
   "inventoryIcon" : "ardanishipdooricon.png",
   "orientations" : [
     {
-      "dualImage" : "ardanishipdoor.png:default",
+      "imageLayers" : [ { "image" : "ardanishipdoor.png:default", "fullbright" : true }, { "image" : "ardanishipdoorlit.png:default" } ],
+      "flipImages" : true,
       "imagePosition" : [-20, 0],
       "renderLayer" : "Object+5",
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom", "top" ]
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "left"
+    },
+    {
+      "imageLayers" : [ { "image" : "ardanishipdoor.png:default", "fullbright" : true }, { "image" : "ardanishipdoorlit.png:default" } ],
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "right"
     }
   ],
-  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scripts" : [ "/objects/wired/door/lockdoor.lua" ],
   "scriptDelta" : 5,
-  "animation" : "/objects/wired/door/door.animation",
+  
+  "animation" : "/objects/wired/door/techdoor.animation",
   "animationCustom" : {
     "sounds" : {
       "open" : {
@@ -40,7 +51,8 @@
     }
   },
   "animationParts" : {
-    "door" : "ardanishipdoor.png"
+    "doorfullbright" : "ardanishipdoor.png",
+    "doormask" : "ardanishipdoorlit.png"
   },
   "animationPosition" : [-20, 0],
   "inputNodes" : [ [-1, 4] ],

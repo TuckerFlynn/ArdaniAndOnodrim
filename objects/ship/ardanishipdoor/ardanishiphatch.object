@@ -17,19 +17,33 @@
   "inventoryIcon" : "ardanishiphatchicon.png",
   "orientations" : [
     {
-      "dualImage" : "ardanishiphatch.png:default",
+      "imageLayers" : [ { "image" : "ardanishiphatch.png:default", "fullbright" : true }, { "image" : "ardanishiphatchlit.png:default" } ],
+      "flipimages" : true,
       "imagePosition" : [-16, -20],
       "renderLayer" : "Object+5",
       "spaces" : [ 
                     [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], 
                     [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
       ],
-      "anchors" : [ "left", "right" ]
+      "anchors" : [ "left", "right" ],
+      "direction" : "left"
+    },
+    {
+      "imageLayers" : [ { "image" : "ardanishiphatch.png:default", "fullbright" : true }, { "image" : "ardanishiphatchlit.png:default" } ],
+      "imagePosition" : [-16, -20],
+      "renderLayer" : "Object+5",
+      "spaces" : [ 
+                    [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], 
+                    [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
+      ],
+      "anchors" : [ "left", "right" ],
+      "direction" : "right"
     }
   ],
-  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scripts" : [ "/objects/wired/door/lockdoor.lua" ],
   "scriptDelta" : 5,
-  "animation" : "/objects/wired/door/door.animation",
+
+  "animation" : "/objects/wired/door/techdoor.animation",
   "animationCustom" : {
     "sounds" : {
       "open" : {
@@ -43,7 +57,8 @@
     }
   },
   "animationParts" : {
-    "door" : "ardanishiphatch.png"
+    "doorfullbright" : "ardanishiphatch.png",
+    "doormask" : "ardanishiphatchlit.png"
   },
   "animationPosition" : [-16, -20],
   "inputNodes" : [ [-1, 4] ],
